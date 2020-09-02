@@ -10,9 +10,24 @@
 
 <body>
     <div id="app">
-        {{message}}
-    </div>
+        <main>
+            <div class="search-box">
+                <input type="text" class="search-bar" placeholder="search...">
+            </div>
 
+            <div class="weather-wrap">
+                <div class="location-box">
+                    <div class="location">chennai,IND</div>
+                    <div class="date">monday 20 july 2020</div>
+                </div>
+            </div>
+
+            <div class="weather-box">
+                <div class="temp">25'C</div>
+                <div class="weather">Rain</div>
+            </div>
+        </main>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="./script.js"></script>
