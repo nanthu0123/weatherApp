@@ -1,6 +1,33 @@
-#app{
-    font-style: italic;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 30px;
-    color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+
+}
+
+.search-box {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.search-box .search-bar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+
+    color: #313131;
+    font-size: 20px;
+
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 16px 0 16px;
+    transition: 0.4s;
 }
